@@ -12,6 +12,10 @@ ot.makeAllLinksGoToOprah = {
   }
 };
 
+ot.boom = function() {
+  alert('Did you are unimpressed? and now?');
+};
+
 global.ot = ot;
   
 })(this.exports || this, document);
