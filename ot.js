@@ -14,4 +14,4 @@ ot.makeAllLinksGoToOprah = {
 
 global.ot = ot;
   
-})(this || this.exports, document);
+})(this.exports || this, document);
