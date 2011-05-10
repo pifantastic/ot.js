@@ -5,7 +5,7 @@ var ot = {};
 
 ot.makeAllLinksGoToOprah = {
   com: function() {
-    var links = doc.getElementsByTagName('a');
+    var links = doc.links;
     for (var x = 0, len = links.length; x < len; x++) {
       links[x].href = 'http://oprah.com';
     }
